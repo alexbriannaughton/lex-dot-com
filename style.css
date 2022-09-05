@@ -7,3 +7,69 @@ h1 {
     text-align: center;
     font-size: 50px;
 }
+
+nav {
+    text-align: center;
+}
+
+#home {
+    float: left;
+}
+
+#aboutme {
+    float: right;
+}
+
+#me {
+    width: 290px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5%;
+}
+
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+h4 {
+    position: absolute;
+    bottom: 10px;
+    width: 50%;
+    border: 3px solid #FFFDD0
+}
+
+
+
+h3 {
+    text-align: center;
+  }
+
+nav {
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+
+
+/* follow is for drawing square
+canvas {
+    border: 10px solid black;
+    width: 360px;
+    height: 360px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+  }
+*/
+
+  /* following is for the moving stuff
+  #myPics {
+    position: absolute;
+    border: 1px solid red;
+    top: 0;
+    left: 0;  
+}
+
+*/
