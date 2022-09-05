@@ -6,12 +6,14 @@ body {
 h1 {
     text-align: center;
     font-size: 50px;
-
+    margin: 0;
+    padding-bottom: 2%;
 }
 
 
 nav {
     text-align: center;
+    padding-bottom: 3.5%;
 }
 
 #home {
@@ -27,7 +29,7 @@ nav {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 5%;
+    margin-bottom: 2%;
 }
 
 iframe {
@@ -51,6 +53,10 @@ nav {
     font-family: 'Times New Roman', Times, serif;
   }
 
+img:hover {
+  cursor: crosshair;
+}
+
 a:link {
     color: #000000;
     background-color: transparent;
@@ -72,11 +78,11 @@ a:active {
     /* Fading animation */
 .fade {
     animation-name: fade;
-    animation-duration: 1.5s;
+    animation-duration: 1.3s;
 }
       
 @keyframes fade {
-    from {opacity: .25}
+    from {opacity: .15}
     to {opacity: 1}
       }
 
