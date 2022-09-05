@@ -11,9 +11,9 @@
   }
   
   /* Hide the images by default */
-  .mySlides {
+  /* .mySlides {
     display: none;
-  }
+  } */
   
   /* Next & previous buttons */
   .prev, .next {
@@ -35,12 +35,12 @@
   
   /* Position the "next button" to the right */
   .next {
-    right: 20%;
+    right: 18.5%;
     border-radius: 7px 7px 7px 7px;
   }
   
   .prev {
-      left: 20%;
+      left: 18.5%;
   }
   
   /* On hover, add a black background color with a little bit see-through */

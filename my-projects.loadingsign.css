@@ -67,3 +67,5 @@ div > p{
   text-align: center;
   margin-top: auto;
   top: 47%;
+  z-index: 50;
+}
