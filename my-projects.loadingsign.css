@@ -94,3 +94,16 @@ p {
   text-align: center;
   font-family:'Times New Roman', Times, serif;
 }
+
+@media only screen and (max-width: 600px) {
+  #loading {
+    text-decoration: underline;
+  }
+  .lds-ring {
+    outline: none;
+  }
+  #loading:visited {
+    text-decoration:line-through;
+  }
+
+}
