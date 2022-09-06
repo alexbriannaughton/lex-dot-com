@@ -90,6 +90,7 @@ div > p{
 p {
   text-align: center;
   font-family:'Times New Roman', Times, serif;
+  padding-top: 5%;
 }
 
 @media only screen and (max-width: 600px) {
