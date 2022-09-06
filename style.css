@@ -9,7 +9,12 @@ h1 {
     margin: 0;
     padding-bottom: 2%;
 }
-
+p {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 0;
+  margin-bottom: 0;
+}
 
 nav {
     text-align: center;
@@ -30,14 +35,15 @@ nav {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 2%;
+    margin-top: 20px;
 }
 
-iframe {
+/*iframe {
     display: block;
     margin-left: auto;
     margin-right: auto; 
 }
-
+*/
 h4 {
     position: absolute;
     bottom: 10px;
@@ -90,7 +96,12 @@ a:active {
   #helloworld {
     font-size: 210%;
   }
-
+  #prevbutton, #nextbutton {
+    padding: 10px;
+  }
+  .smallsize {
+    
+  }
 }
 
 

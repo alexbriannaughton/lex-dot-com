@@ -35,12 +35,12 @@
   
   /* Position the "next button" to the right */
   .next {
-    right: 12.8%;
+    right: 16%;
     border-radius: 7px 7px 7px 7px;
   }
   
   .prev {
-      left: 12.8%;
+      left: 16%;
   }
   
   /* On hover, add a black background color with a little bit see-through */
@@ -77,4 +77,39 @@
   .active, .dot:hover {
     background-color: #717171;
   }
+
+#aboutp {
+  margin-left: 19%;
+  margin-right: 19%;
+}
   
+#line1 {
+ font-size: .77em;
+ padding-left: 41px;
+ padding-bottom: 1.5px;
+}
+#line2 {
+  text-align: left
+}
+#line3 {
+ text-align: center;
+ font-size: .95;
+}
+#line4{
+  text-align: right;
+  font-size: .9;
+}
+
+#line5 {
+  font-size: .85em;
+  font-style: italic;
+  text-align: left;
+  padding-right: 3%;
+  padding-left: 35px;
+  padding-top: 3px;
+}
+
+#aboutlexh1 {
+  padding-bottom: 0%;
+  padding-left: 2.25%;
+}
