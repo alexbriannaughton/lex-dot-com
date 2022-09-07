@@ -79,25 +79,28 @@
   }
 
 #aboutp {
-  margin-left: 19%;
-  margin-right: 19%;
+  margin-left: 15%;
+  margin-right: 15%;
 }
   
 #line1 {
  font-size: .77em;
  padding-left: 41px;
- padding-bottom: 1.5px;
+ padding-bottom: 6px;
 }
 #line2 {
-  text-align: left
+  text-align: left;
+  padding-bottom: 2.2px;
 }
 #line3 {
  text-align: center;
  font-size: .95;
+ padding-bottom: 2.2px;
 }
 #line4{
   text-align: right;
   font-size: .9;
+  padding-bottom: 5px;
 }
 
 #line5 {
@@ -105,9 +108,9 @@
   font-style: italic;
   text-align: left;
   padding-right: 3%;
-  padding-left: 35px;
+  padding-left: 10%;
   padding-top: 3px;
-  padding-bottom: 3.5px;
+  padding-bottom: 17px;
 }
 
 #aboutlexh1 {

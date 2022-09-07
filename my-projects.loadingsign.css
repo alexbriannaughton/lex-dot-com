@@ -80,6 +80,7 @@ div > p{
   text-align: center;
   margin-top: auto;
   top: 43.5%;
+  padding-top: 0;
 }
 
 .lds-ring:hover {
