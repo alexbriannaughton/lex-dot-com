@@ -54,6 +54,10 @@ nav {
     border: 8.5px ridge #FFFDD0;
 }
 
+#me:active {
+  border: 8.5px groove #FFFDD0;
+}
+
 /*iframe {
     display: block;
     margin-left: auto;
