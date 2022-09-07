@@ -18,15 +18,28 @@ p {
 
 nav {
     text-align: center;
-    padding-bottom: 3.5%;
+}
+
+#myprojects {
+    float: left;
 }
 
 #home {
-    float: left;
+ vertical-align: top; 
 }
 
 #aboutme {
     float: right;
+}
+
+#flowersleft {
+  padding-right: 3%;
+  width: 186px;
+}
+
+#flowersright {
+  padding-left: 3%;
+  width: 186px;
 }
 
 #me {
@@ -104,6 +117,21 @@ a:active {
   #prevbutton, #nextbutton {
     padding: 10px;
   }
+  .prev, .next {
+    cursor:pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -50px;
+    color: #000000;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 7px 7px 7px 7px;
+    user-select: none;
+    text-decoration: #FFFDD0;
+    outline-color: #000000;
+  }
   img.smallsize {
     width: 72%;
   }
@@ -114,6 +142,19 @@ a:active {
   .prev {
       left: 4%;
   }
+  #flowersleft {
+    width: 55px;
+    padding-right: 5%;
+  }
+  
+  #flowersright {
+    width: 55px;
+    padding-left: 5%;
+  }
+
+  nav {
+    margin-bottom: 3.5%;
+}
 }
 
 
