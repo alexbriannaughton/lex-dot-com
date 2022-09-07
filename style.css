@@ -18,6 +18,7 @@ p {
 
 nav {
     text-align: center;
+    display:block;
 }
 
 #myprojects {
@@ -30,16 +31,17 @@ nav {
 
 #aboutme {
     float: right;
+    padding-left: 17px;
 }
 
 #flowersleft {
   padding-right: 3%;
-  width: 186px;
+  width: 177px;
 }
 
 #flowersright {
   padding-left: 3%;
-  width: 186px;
+  width: 177px;
 }
 
 #me {
