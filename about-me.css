@@ -1,0 +1,102 @@
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: 0px auto;
+  text-align: center;
+}
+  
+.prev, .next {
+  cursor:pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -50px;
+  padding: 16px;
+  color: #000000;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 7px 7px 7px 7px;
+  user-select: none;
+  text-decoration: #FFFDD0;
+  outline-color: #000000;
+}
+  
+.next {
+  right: 16%;
+  border-radius: 7px 7px 7px 7px;
+}
+  
+.prev {
+  left: 16%;
+}
+
+.prev:hover, .next:hover {
+  background-color: #FFFDD0;
+}
+  
+.text {
+  color: #000000;
+  font-size: 18px;
+  padding: 8px 12px;
+  text-align: center;
+  font-style: italic;
+}
+  
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+  
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+#aboutp {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+  
+#line1 {
+  font-size: .77em;
+  padding-left: 41px;
+  padding-bottom: 6px;
+}
+
+#line2 {
+  text-align: left;
+  padding-bottom: 2.2px;
+}
+
+#line3 {
+ text-align: center;
+ font-size: .95;
+ padding-bottom: 2.2px;
+}
+
+#line4{
+  text-align: right;
+  font-size: .9;
+  padding-bottom: 5px;
+}
+
+#line5 {
+  font-size: .85em;
+  font-style: italic;
+  text-align: left;
+  padding-right: 3%;
+  padding-left: 10%;
+  padding-top: 3px;
+  padding-bottom: 17px;
+}
+
+#aboutlexh1 {
+  padding-bottom: 0%;
+  padding-left: 2.25%;
+}

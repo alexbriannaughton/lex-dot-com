@@ -1,37 +1,25 @@
 body {
-    background: #FFE4E1;
-    font-family: garamond;
-}
-
-h1 {
-    text-align: center;
-    font-size: 50px;
-    margin: 0;
-    padding-bottom: 2%;
-}
-p {
-  text-align: center;
-  font-family: 'Times New Roman', Times, serif;
-  margin-top: 0;
-  margin-bottom: 0;
+  background: #FFE4E1;
+  font-family: garamond;
 }
 
 nav {
-    text-align: center;
-    display:block;
+  text-align: center;
+  display:block;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 #myprojects {
-    float: left;
+  float: left;
 }
 
 #home {
- vertical-align: top; 
+  vertical-align: top; 
 }
 
 #aboutme {
-    float: right;
-    padding-left: 17px;
+  float: right;
+  padding-left: 15px;
 }
 
 #flowersleft {
@@ -45,69 +33,61 @@ nav {
 }
 
 #me {
-    width: 290px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 2%;
-    margin-top: 20px;
-    border: 8.5px ridge #FFFDD0;
+  width: 290px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2%;
+  margin-top: 20px;
+  border: 8.5px ridge #FFFDD0;
 }
 
 #me:active {
   border: 8.5px groove #FFFDD0;
 }
 
-/*iframe {
-    display: block;
-    margin-left: auto;
-    margin-right: auto; 
+h1 {
+  text-align: center;
+  font-size: 50px;
+  margin: 0;
+  padding-bottom: 2%;
 }
-*/
-h4 {
-    position: absolute;
-    bottom: 10px;
-    width: 50%;
-    border: 3px solid #FFFDD0
-}
-
-h3 {
-    text-align: center;
-  }
-
-nav {
-    font-family: 'Times New Roman', Times, serif;
-  }
 
 img:hover {
   cursor: crosshair;
 }
 
 a:link {
-    color: #000000;
-    background-color: transparent;
-    text-decoration: underline;
-  }
+  color: #000000;
+  background-color: transparent;
+  text-decoration: underline;
+}
 
 a:visited {
-    color: #000000;
-    background-color: transparent;
-    text-decoration: none;
-  }
+  color: #000000;
+  background-color: transparent;
+  text-decoration: none;
+}
   
 a:active {
-    color:blue;
-    background-color: transparent;
-    text-decoration: underline;
-  }
+  color:blue;
+  background-color: transparent;
+  text-decoration: underline;
+}
 
-    /* Fading animation */
+p {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 .fade {
     animation-name: fade;
     animation-duration: 1.3s;
 }
 
-.smallsize {
+.tum {
   width: 50%;
 }
       
@@ -138,7 +118,7 @@ a:active {
     text-decoration: #FFFDD0;
     outline-color: #000000;
   }
-  img.smallsize {
+  img.tum {
     width: 72%;
   }
   .next {
@@ -160,27 +140,5 @@ a:active {
 
   nav {
     margin-bottom: 3.5%;
-}
-}
-
-
-/* follow is for drawing square
-canvas {
-    border: 10px solid black;
-    width: 360px;
-    height: 360px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto; 
   }
-*/
-
-  /* following is for the moving stuff
-  #myPics {
-    position: absolute;
-    border: 1px solid red;
-    top: 0;
-    left: 0;  
 }
-
-*/
