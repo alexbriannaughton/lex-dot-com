@@ -43,7 +43,7 @@ nav {
 }
 
 #me:active {
-  border: 8.5px groove #FFFDD0;
+  border: 8.5px ridge #FFFDD0;
 }
 
 h1 {
@@ -53,8 +53,9 @@ h1 {
   padding-bottom: 2%;
 }
 
-img:hover {
+#me:hover {
   cursor: crosshair;
+  border: 8.5px groove #FFFDD0;
 }
 
 a:link {
@@ -68,7 +69,8 @@ a:visited {
   background-color: transparent;
   text-decoration: none;
 }
-  
+
+
 a:active {
   color:blue;
   background-color: transparent;

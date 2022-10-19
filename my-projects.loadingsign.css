@@ -82,3 +82,23 @@ p {
     text-decoration: none;
   }
 }
+
+#clickme {
+  font-size: .45em;
+}
+
+#vid {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text {
+  padding-top: 0;
+}
+
+iframe{
+  margin-top: 20px;
+  width: 560px;
+  height: 315px;
+}
