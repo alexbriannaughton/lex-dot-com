@@ -89,9 +89,9 @@
 #line5 {
   font-size: .85em;
   font-style: italic;
-  text-align: left;
-  padding-right: 3%;
-  padding-left: 10%;
+  text-align: center;
+  /* padding-right: 3%;
+  padding-left: 10%; */
   padding-top: 3px;
   padding-bottom: 17px;
 }
@@ -99,4 +99,16 @@
 #aboutlexh1 {
   padding-bottom: 0%;
   padding-left: 2.25%;
+}
+
+@media only screen and (max-width: 600px) {
+  #line5 {
+    font-size: .85em;
+    font-style: italic;
+    text-align: left;
+    padding-right: 3%;
+    padding-left: 10%;
+    padding-top: 3px;
+    padding-bottom: 17px;
+  }
 }

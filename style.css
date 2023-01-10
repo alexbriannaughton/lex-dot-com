@@ -5,7 +5,7 @@ body {
 
 nav {
   text-align: center;
-  display:block;
+  display: block;
   font-family: 'Times New Roman', Times, serif;
 }
 
@@ -14,7 +14,7 @@ nav {
 }
 
 #home {
-  vertical-align: top; 
+  vertical-align: top;
 }
 
 #aboutme {
@@ -72,7 +72,7 @@ a:visited {
 
 
 a:active {
-  color:blue;
+  color: blue;
   background-color: transparent;
   text-decoration: underline;
 }
@@ -85,28 +85,38 @@ p {
 }
 
 .fade {
-    animation-name: fade;
-    animation-duration: 1.3s;
+  animation-name: fade;
+  animation-duration: 1.3s;
 }
 
 .tum {
   width: 50%;
+  max-width: 480px;
 }
-      
+
 @keyframes fade {
-    from {opacity: .15}
-    to {opacity: 1}
-      }
+  from {
+    opacity: .15
+  }
+
+  to {
+    opacity: 1
+  }
+}
 
 @media only screen and (max-width: 600px) {
   #helloworld {
     font-size: 210%;
   }
-  #prevbutton, #nextbutton {
+
+  #prevbutton,
+  #nextbutton {
     padding: 10px;
   }
-  .prev, .next {
-    cursor:pointer;
+
+  .prev,
+  .next {
+    cursor: pointer;
     position: absolute;
     top: 50%;
     width: auto;
@@ -120,21 +130,24 @@ p {
     text-decoration: #FFFDD0;
     outline-color: #000000;
   }
+
   img.tum {
     width: 72%;
   }
+
   .next {
     right: 4%;
   }
-  
+
   .prev {
-      left: 4%;
+    left: 4%;
   }
+
   #flowersleft {
     width: 55px;
     padding-right: 5%;
   }
-  
+
   #flowersright {
     width: 55px;
     padding-left: 5%;
@@ -144,3 +157,153 @@ p {
     margin-bottom: 3.5%;
   }
 }
+
+@media only screen and (max-width: 370px) {
+  #flowersleft {
+    width: 45px;
+    padding-right: 5%;
+  }
+
+  #flowersright {
+    width: 45px;
+    padding-left: 5%;
+  }
+
+  #myprojects {
+    font-size: .8rem;
+  }
+
+  /* #home {
+    vertical-align: top; 
+  } */
+
+  #aboutme {
+    font-size: .8rem;
+  }
+}
+
+#projects-div {
+  display: flex;
+  justify-content: center;
+}
+
+.bandcamp {
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  border: 0;
+  width: 49%;
+  height: 42px;
+  margin-top: 4px;
+}
+
+#music-p {
+  margin-bottom: 30px;
+}
+
+#web-project-parent {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+.web-project-div {
+  width: 100%;
+  /* margin-left: 10px;
+  margin-right: 10px; */
+  border: 2px dotted #FFFDD0;
+  border-radius: 20px;
+  /* padding-bottom: 25px; */
+}
+
+/* .web-project-div:nth-child(4) {
+  margin-top: 20px;
+} */
+
+.project-details-div {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+#bbb-subtitle {
+  margin-top: -25px;
+  text-align: center;
+}
+
+#bbb-details {
+  margin-top: -14px;
+}
+
+.line-break {
+  width: 100%;
+}
+
+#chore-heroes-logo {
+  border: 2px solid chartreuse;
+  border-radius: 12px;
+  width: 200px;
+  margin: auto;
+  display: block;
+  margin-top: 17px;
+  margin-bottom: 4px;
+}
+
+.black-outline {
+  border: 1px dotted dimgray;
+  width: 25%;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+
+  border-radius: 20px;
+}
+
+.blogs-margin-top {
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .bandcamp {
+    width: 100%;
+  }
+
+  #web-project-parent {
+    display: block;
+  }
+
+  /* .web-project-div {
+     flex-grow: 1;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 5px;
+    min-width: 300px; 
+  } */
+
+  .web-project-div:nth-child(4) {
+    margin-top: 5px;
+  }
+
+  #bbb-details {
+    margin-top: auto;
+  }
+
+  .black-outline {
+    flex-grow: 1;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 5px;
+    min-width: 300px;
+  }
+}
+
+.proj-link {
+  margin: auto;
+}
+
+#spooky {
+  margin: auto;
+  display: block;
+  width: 100px;
+}
+

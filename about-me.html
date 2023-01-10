@@ -1,73 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <link rel="stylesheet" href="about-me.css">
-    <link rel="stylesheet" href="style.css" />
-    <title>About Lex</title>
-    <meta name="viewport" content="width=device-width, intial-scale=1">
-    <script src="about-me.tummyshow.js" defer></script>
-  </head>
-  <body>
-    <nav>
-      <a id="myprojects" href="my-projects.html">my projects</a>
-      <img id="flowersleft" src="https://i.imgur.com/ThrUKtF.png" width=15%>
-      <a id="home" href="index.html">home</a>
-      <img id="flowersright" src="https://i.imgur.com/bpIKpkt.png" width=15%>
-      <a id="aboutme" href="about-me.html">about lex</a>
-    </nav>
-    <h1 id="aboutlexh1" class="fade">about lex</h1>
-    <div id="aboutp" class = "fade">
-      <p id="line1">Hello! I'm Alex.</p>
-      <p id="line2">I'm a roller skater, music-maker and video editor.</p>
-      <p id="line3">I've enjoyed the last five years working in the veterinary field,
-      <p id="line4">and I can't wait to start this new chapter in my career.</p>
-      <p id="line5">Please enjoy this photoshoot of a sweet creature so dear to my heart—my chihuahua, Tummy.</p>
+
+<head>
+  <link rel="stylesheet" href="slideshow.css">
+  <link rel="stylesheet" href="style.css" />
+  <title>About Lex</title>
+  <meta name="viewport" content="width=device-width, intial-scale=1">
+  <script src="slideshow.js" defer></script>
+</head>
+
+<body>
+  <nav>
+    <a id="myprojects" href="my-projects.html">my projects</a>
+    <img id="flowersleft" src="https://i.imgur.com/ThrUKtF.png">
+    <a id="home" href="index.html">home</a>
+    <img id="flowersright" src="https://i.imgur.com/bpIKpkt.png">
+    <a id="aboutme" href="about-me.html">about lex</a>
+  </nav>
+  <h1 id="aboutlexh1" class="fade">about lex</h1>
+  <div id="aboutp" class="fade">
+    <p id="line1">Hello! I'm Alex.</p>
+    <p id="line2">I'm a web programmer, music-maker, video editor, roller skater.</p>
+    <p id="line3">I've enjoyed the last five years working in the veterinary field,
+    <p id="line4">and I'm currently looking for work in web development.</p>
+    <p id="line5">This is a photoshoot of a sweet creature so dear to my heart—my chihuahua, Tummy.</p>
+  </div>
+  <div class="slideshow-container">
+    <div class="mySlides fade">
+      <img class="tum" src="https://i.imgur.com/JYDkvmX.jpg">
+      <div class="text">Gummy bears hooded T</div>
     </div>
-    <div class="slideshow-container">
-      <div class="mySlides fade" >
-        <img class="tum" src="https://i.imgur.com/JYDkvmX.jpg">
-        <div class="text">Gummy bears hooded T</div>
-      </div>
-      <div class="mySlides fade">
-        <img class="tum" src="https://i.imgur.com/a787XYS.jpg">
-        <div class="text">Full body fuzzy</div>
-      </div>
-      <div class="mySlides fade">
-        <img class="tum" src="https://i.imgur.com/HuFj9d6.jpg">
-        <div class="text">Chicken</div>
-      </div>
-      <div class="mySlides fade">
-        <img class="tum" src="https://i.imgur.com/zJPAysP.jpg">
-        <div class="text">Custom quilt jacket</div>
-      </div>
-      <div class="mySlides fade">
-        <img class="tum" src="https://i.imgur.com/vRvfreD.jpg">
-        <div class="text">Turtleneck</div>
-      </div>
-      <div class="mySlides fade">
-        <img class="tum" src="https://i.imgur.com/ZB2XPpe.jpg">
-        <div class="text">Feeling beachy</div>
-      </div>
-      <div class="mySlides fade">
-        <img class="tum" src="https://i.imgur.com/v984kzJ.jpg">
-        <div class="text">Button-up stud</div>
-      </div>
-      <div class="mySlides fade">
-        <img class="tum" src="https://i.imgur.com/y4asCVU.jpg">
-        <div class="text">Colorblock vest from the Legos x Target collab</div>
-      </div>
-        <a id="prevbutton" class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a id="nextbutton" class="next" onclick="plusSlides(1)">&#10095;</a>
+    <div class="mySlides fade">
+      <img class="tum" src="https://i.imgur.com/a787XYS.jpg">
+      <div class="text">Full body fuzzy</div>
     </div>
-    <div style="text-align:center" class="fade">
-      <span class="dot" onclick="currentSlide(1)"></span>
-      <span class="dot" onclick="currentSlide(2)"></span>
-      <span class="dot" onclick="currentSlide(3)"></span>
-      <span class="dot" onclick="currentSlide(4)"></span>
-      <span class="dot" onclick="currentSlide(5)"></span>
-      <span class="dot" onclick="currentSlide(6)"></span>
-      <span class="dot" onclick="currentSlide(7)"></span>
-      <span class="dot" onclick="currentSlide(8)"></span>
+    <div class="mySlides fade">
+      <img class="tum" src="https://i.imgur.com/HuFj9d6.jpg">
+      <div class="text">Chicken</div>
     </div>
-  </body>
+    <div class="mySlides fade">
+      <img class="tum" src="https://i.imgur.com/zJPAysP.jpg">
+      <div class="text">Custom quilt jacket</div>
+    </div>
+    <div class="mySlides fade">
+      <img class="tum" src="https://i.imgur.com/vRvfreD.jpg">
+      <div class="text">Turtleneck</div>
+    </div>
+    <div class="mySlides fade">
+      <img class="tum" src="https://i.imgur.com/ZB2XPpe.jpg">
+      <div class="text">Feeling beachy</div>
+    </div>
+    <div class="mySlides fade">
+      <img class="tum" src="https://i.imgur.com/v984kzJ.jpg">
+      <div class="text">Button-up stud</div>
+    </div>
+    <div class="mySlides fade">
+      <img class="tum" src="https://i.imgur.com/y4asCVU.jpg">
+      <div class="text">Colorblock vest from the Legos x Target collab</div>
+    </div>
+    <a id="prevbutton" class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a id="nextbutton" class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <div style="text-align:center" class="fade">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span>
+    <span class="dot" onclick="currentSlide(6)"></span>
+    <span class="dot" onclick="currentSlide(7)"></span>
+    <span class="dot" onclick="currentSlide(8)"></span>
+  </div>
+</body>
+
 </html>
