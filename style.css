@@ -197,9 +197,39 @@ p {
   margin-top: 4px;
 }
 
-#music-p {
-  margin-bottom: 30px;
+#vid-flex {
+  display: flex;
+  /* flex-direction: row;
+  justify-content: space-evenly; */
+  overflow-x: auto;
 }
+
+.vid-container {
+  text-align: center;
+  position: relative;
+  width: 400px;
+  height: 225px;
+  margin: 0 auto;
+  border: 5px ridge #FFFDD0;
+  flex: 10 0 auto;
+  margin-right: 4px;
+  margin-bottom: 20px;
+}
+
+/* .vid-container iframe {
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+} */
+@media only screen and (max-width: 400px) {
+  .vid-container {
+    width: 300px;
+    height: 169px;
+  }
+}
+
 
 #web-project-parent {
   display: flex;
@@ -307,3 +337,98 @@ p {
   width: 100px;
 }
 
+#music-p {
+  margin-left: 35%;
+  margin-right: 35%;
+}
+
+#music-line-1 {
+  text-align: left;
+  /* padding-left: 41px; */
+}
+
+#music-line-2 {
+  text-align: right;
+  margin-bottom: 9px;
+}
+
+#music-line-3 {
+  margin-bottom: 20px;
+}
+
+#video-p {
+  margin-left: 40%;
+  margin-right: 40%;
+}
+
+#web-p {
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+@media only screen and (max-width: 1000px) {
+  #music-p {
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+
+  #video-p {
+    margin-left: 32%;
+    margin-right: 32%;
+  }
+
+  #web-p {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #music-p {
+    margin-left: 6%;
+    margin-right: 6%;
+  }
+
+  #video-p {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+
+  #web-p {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+
+#video-line-1 {
+  text-align: left;
+}
+
+#video-line-3 {
+  text-align: right;
+  margin-bottom: 4px;
+}
+
+#video-line-4 {
+  text-align: center;
+  margin-bottom: 26px;
+}
+
+#web-line-1 {
+  text-align: left;
+  margin-bottom: 3px;
+}
+
+#web-line-2 {
+  text-align: right;
+  margin-bottom: 4px;
+}
+#web-line-3 {
+  margin-bottom: 26px;
+}
+
+#projects-div a, span {
+  margin-top: 20px;
+  /* font-family: 'Times New Roman', Times, serif; */
+  font-size: 1.2rem;
+}
