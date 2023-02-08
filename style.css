@@ -266,6 +266,10 @@ p {
   margin-top: -14px;
 }
 
+#honky-details {
+  margin-top: 17px;
+}
+
 .line-break {
   width: 100%;
 }
@@ -290,9 +294,9 @@ p {
   border-radius: 20px;
 }
 
-.blogs-margin-top {
+/* .blogs-margin-top {
   margin-top: 20px;
-}
+} */
 
 @media only screen and (max-width: 600px) {
   .bandcamp {
