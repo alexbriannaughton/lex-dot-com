@@ -290,7 +290,7 @@ p {
   margin-left: 10px;
   margin-right: 10px;
   display: flex;
-
+  margin-top: 5px;
   border-radius: 20px;
 }
 
@@ -307,18 +307,6 @@ p {
     display: block;
   }
 
-  /* .web-project-div {
-     flex-grow: 1;
-    text-align: center;
-    margin: 0 auto;
-    margin-top: 5px;
-    min-width: 300px; 
-  } */
-
-  .web-project-div:nth-child(4) {
-    margin-top: 5px;
-  }
-
   #bbb-details {
     margin-top: auto;
   }
@@ -327,7 +315,6 @@ p {
     flex-grow: 1;
     text-align: center;
     margin: 0 auto;
-    margin-top: 5px;
     min-width: 300px;
   }
 }
