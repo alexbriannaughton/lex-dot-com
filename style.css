@@ -185,6 +185,7 @@ p {
 #projects-div {
   display: flex;
   justify-content: center;
+  margin-bottom: 20px;
 }
 
 .bandcamp {
@@ -428,4 +429,79 @@ p {
 #tummy-projects-div {
   display: flex;
   justify-content: center;
+}
+
+#lex-skates {
+  width: 120px;
+  height: 100px;
+  position:absolute;
+  left:58%;
+  top:400px;
+  pointer-events: none;
+  
+  animation:
+  x 3s linear infinite alternate,
+  y 3s infinite cubic-bezier(0,533.33,1,533.33);
+}
+
+@keyframes x {
+  to {
+    left:30%;
+  }
+}
+@keyframes y {
+  to {
+    top:399.5px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  #lex-skates {
+    left: 64%;
+  }
+  @keyframes x {
+    to {
+      left:17%;
+    }
+  }
+  @keyframes y {
+    to {
+      top:399.5px;
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #lex-skates {
+
+    top:350px;
+  }
+  @keyframes x {
+    to {
+      left:13%;
+    }
+  }
+  @keyframes y {
+    to {
+      top:349.5px;
+    }
+  }
+}
+@media only screen and (max-width: 500px) {
+  #lex-skates {
+    height: 90px;
+    width: 100px;
+    left: 70%;
+    top:350px;
+  }
+  @keyframes x {
+    to {
+      left:3%;
+    }
+  }
+  @keyframes y {
+    to {
+      top:349.5px;
+    }
+  }
 }
