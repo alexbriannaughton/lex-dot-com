@@ -64,7 +64,7 @@
 }
   
 #line1 {
-  font-size: .77em;
+  font-size: .77rem;
   padding-left: 41px;
   padding-bottom: 6px;
 }
@@ -76,17 +76,23 @@
 
 #line3 {
  text-align: center;
- font-size: .95;
+
  padding-bottom: 2.2px;
 }
 
 #line4{
   text-align: right;
-  font-size: .9;
-  padding-bottom: 5px;
 }
 
 #line5 {
+  text-align: right;
+  font-size: .77rem;
+  padding-bottom: 5px;
+  margin-right: 2%;
+
+}
+
+#line6 {
   font-size: .85em;
   font-style: italic;
   text-align: center;
@@ -102,7 +108,7 @@
 }
 
 @media only screen and (max-width: 600px) {
-  #line5 {
+  #line6 {
     font-size: .85em;
     font-style: italic;
     text-align: left;
