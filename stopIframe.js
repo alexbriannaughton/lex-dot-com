@@ -17,7 +17,8 @@ function onYouTubeIframeAPIReady() {
         width: '100%',
         videoId: 'ne1kx2UGRPs',
         playerVars: {
-            'playsinline': 1
+            'playsinline': 1,
+            'controls': 2
         },
         events: {
             'onReady': onPlayerReady,
@@ -29,7 +30,8 @@ function onYouTubeIframeAPIReady() {
         width: '100%',
         videoId: '0MR-LYxXSvg',
         playerVars: {
-            'playsinline': 1
+            'playsinline': 1,
+            'controls': 2
         },
         events: {
             'onReady': onPlayerReady,
@@ -41,7 +43,8 @@ function onYouTubeIframeAPIReady() {
         width: '100%',
         videoId: 'SPx3rZWjshM',
         playerVars: {
-            'playsinline': 1
+            'playsinline': 1,
+            'controls': 2
         },
         events: {
             'onReady': onPlayerReady,
@@ -53,7 +56,8 @@ function onYouTubeIframeAPIReady() {
         width: '100%',
         videoId: 'uinlDrEq00g',
         playerVars: {
-            'playsinline': 1
+            'playsinline': 1,
+            'controls': 2
         },
         events: {
             'onReady': onPlayerReady,
@@ -65,7 +69,8 @@ function onYouTubeIframeAPIReady() {
         width: '100%',
         videoId: 'Vzybd59aboU',
         playerVars: {
-            'playsinline': 1
+            'playsinline': 1,
+            'controls': 2
         },
         events: {
             'onReady': onPlayerReady,
