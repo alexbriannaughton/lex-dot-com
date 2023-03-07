@@ -108,6 +108,10 @@
 }
 
 @media only screen and (max-width: 600px) {
+  #aboutp {
+    margin-left: 8%;
+    margin-right: 8%;
+  }
   #line6 {
     font-size: .85em;
     font-style: italic;
