@@ -11,7 +11,7 @@ function onPlayerError(e) {
     console.log('[onPlayerError]');
 }
 function onPlayerStateChange(e) {
-    var label = e.target.ulabel;
+    // var label = e.target.ulabel;
     if (e["data"] == YT.PlayerState.PLAYING) {
         // console.log({
         //     event: "youtube",

@@ -188,14 +188,24 @@ p {
   margin-bottom: 20px;
 }
 
+#bandcamp-div {
+  border: 8.5px ridge #FFFDD0;
+  width: 49%;
+  margin: 0 auto;
+}
+
 .bandcamp {
   text-align: center;
   margin: 0 auto;
   display: block;
   border: 0;
-  width: 49%;
+  width: 99.5%;
   height: 42px;
-  margin-top: 4px;
+  margin-top: 1px;
+}
+
+.bandcamp:last-of-type {
+  margin-bottom: 2px;
 }
 
 #vid-flex {
@@ -416,11 +426,13 @@ p {
   text-align: right;
   margin-bottom: 4px;
 }
+
 #web-line-3 {
   margin-bottom: 26px;
 }
 
-#projects-div a, span {
+#projects-div a,
+span {
   margin-top: 20px;
   /* font-family: 'Times New Roman', Times, serif; */
   font-size: 1.2rem;
@@ -434,24 +446,25 @@ p {
 #lex-skates {
   width: 120px;
   height: 100px;
-  position:absolute;
-  left:58%;
-  top:400px;
+  position: absolute;
+  left: 58%;
+  top: 400px;
   pointer-events: none;
-  
+
   animation:
-  x 3s linear infinite alternate,
-  y 3s infinite cubic-bezier(0,533.33,1,533.33);
+    x 3s linear infinite alternate,
+    y 3s infinite cubic-bezier(0, 533.33, 1, 533.33);
 }
 
 @keyframes x {
   to {
-    left:30%;
+    left: 30%;
   }
 }
+
 @keyframes y {
   to {
-    top:399.5px;
+    top: 399.5px;
   }
 }
 
@@ -459,14 +472,16 @@ p {
   #lex-skates {
     left: 64%;
   }
+
   @keyframes x {
     to {
-      left:17%;
+      left: 17%;
     }
   }
+
   @keyframes y {
     to {
-      top:399.5px;
+      top: 399.5px;
     }
   }
 }
@@ -474,34 +489,40 @@ p {
 @media only screen and (max-width: 600px) {
   #lex-skates {
 
-    top:350px;
+    top: 350px;
   }
+
   @keyframes x {
     to {
-      left:13%;
+      left: 13%;
     }
   }
+
   @keyframes y {
     to {
-      top:349.5px;
+      top: 349.5px;
     }
   }
 }
+
 @media only screen and (max-width: 500px) {
   #lex-skates {
     height: 90px;
     width: 100px;
     left: 70%;
-    top:350px;
+    top: 350px;
   }
+
   @keyframes x {
     to {
-      left:3%;
+      left: 3%;
     }
   }
+
   @keyframes y {
     to {
-      top:349.5px;
+      top: 349.5px;
     }
   }
 }
+
