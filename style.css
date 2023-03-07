@@ -189,7 +189,7 @@ p {
 }
 
 #bandcamp-div {
-  border: 8.5px ridge #FFFDD0;
+  border: 5px ridge #FFFDD0;
   width: 49%;
   max-width: 700px;
   margin: 0 auto;
@@ -312,7 +312,9 @@ p {
 
 @media only screen and (max-width: 600px) {
   #bandcamp-div {
-    width: 100%;
+    width: 99%;
+    position: relative;
+    left: -5.4px;
   }
 
   #web-project-parent {
