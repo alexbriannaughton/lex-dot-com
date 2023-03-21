@@ -54,7 +54,7 @@ h1 {
 }
 
 #me:hover {
-  cursor: crosshair;
+  cursor: help;
   border: 8.5px groove #FFFDD0;
 }
 
