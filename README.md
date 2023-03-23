@@ -1,1 +1,2 @@
-# My Personal Website
+### my personal website!
+[lexdotcom.com](https://lexdotcom.com)
