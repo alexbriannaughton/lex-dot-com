@@ -1,6 +1,7 @@
 body {
   background: #FFE4E1;
   font-family: garamond;
+  overflow-y: hidden;
 }
 
 nav {
@@ -90,7 +91,7 @@ p {
 }
 
 .tum {
-  width: 50%;
+  width: 45%;
   max-width: 480px;
 }
 
