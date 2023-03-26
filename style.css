@@ -316,7 +316,22 @@ p {
 /* .blogs-margin-top {
   margin-top: 20px;
 } */
-
+@media only screen and (max-width: 328px) {
+  #me {
+    width: 200px;
+  }
+  #home {
+    font-size: .8rem;
+  }
+  #flowersleft {
+    width: 45px;
+    padding-right: 2%;
+  }
+  #flowersright {
+    width: 45px;
+    padding-left: 2%;
+  }
+}
 @media only screen and (max-width: 600px) {
   #bandcamp-div {
     width: 99%;
@@ -535,4 +550,27 @@ span {
     }
   }
 }
+@media only screen and (max-width: 330px) {
+  #tummy-projects {
+    margin-top: 20px;
+    width: 200px;
+  }
+  #lex-skates {
+    height: 90px;
+    width: 100px;
+    left: 60%;
+    top: 350px;
+  }
 
+  @keyframes x {
+    to {
+      left: 1%;
+    }
+  }
+
+  @keyframes y {
+    to {
+      top: 349.5px;
+    }
+  }
+}
