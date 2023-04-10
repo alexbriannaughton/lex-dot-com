@@ -1,21 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head></head>
-    <link rel="stylesheet" href="style.css" />
-    <title>Lex's web</title>
-    <link rel="icon" type="image/x-icon" href="./tummyicon.PNG">
-    <meta name="viewport" content="width=device-width, intial-scale=1">
-  <body>
-    <header>
-      <nav>
-        <a id="myprojects" href="my-projects.html">my projects</a>
-        <img id="flowersleft" src="https://i.imgur.com/ThrUKtF.png">
-        <a id="home" href="index.html">home</a>
-        <img id="flowersright" src="https://i.imgur.com/bpIKpkt.png">
-        <a id="aboutme" href="about-me.html">about lex</a>
-      </nav>
-    </header>
-    <img class="fade" id="me" src="./me.jpg" alt="me">
-    <h1 id="helloworld" class="fade">h e l l o &nbsp;&nbsp;w o r l d !</h1>
-  </body>
+
+<head></head>
+<link rel="stylesheet" href="style.css" />
+<title>Lex's web</title>
+<link rel="icon" type="image/x-icon" href="./tummyicon.PNG">
+<link href="os-gui/windows-98.css" rel="stylesheet" type="text/css">
+<meta name="viewport" content="width=device-width, intial-scale=1">
+
+<body>
+  <header>
+    <nav>
+      <a id="myprojects" href="my-projects.html">my projects</a>
+      <img id="flowersleft" src="https://i.imgur.com/ThrUKtF.png">
+      <a id="home" href="index.html">home</a>
+      <img id="flowersright" src="https://i.imgur.com/bpIKpkt.png">
+      <a id="aboutme" href="about-me.html">about lex</a>
+    </nav>
+  </header>
+  <img class="fade" id="me" src="./me.jpg" alt="me">
+  <h1 id="helloworld" class="fade">h e l l o &nbsp;&nbsp;w o r l d !</h1>
+  <div id="socials-div">
+    <script>
+      const linkedin = "https://www.linkedin.com/in/alexbriannaughton/";
+      const github = "https://github.com/alexbriannaughton";
+      const ig = "https://www.instagram.com/lifelong_lex/";
+      const bandcamp = "https://lllex.bandcamp.com/";
+      const tiktok = "https://www.tiktok.com/@littlest.flexer";
+      function openWindow(link) {
+        window.open(link);
+      }
+    </script>
+    <button onclick="openWindow(linkedin)"><span>linkedin</span></button>
+    <button onclick="openWindow(github)"><span>github</span></button>
+    <button onclick="openWindow(ig)"><span>ig</span></button>
+    <button onclick="openWindow(bandcamp)"><span>bandcamp</span></button>
+    <button onclick="openWindow(tiktok)"><span>tiktok</span></button>
+  </div>
+</body>
+
 </html>
