@@ -484,7 +484,7 @@ span {
 #socials-div {
   display: flex;
   justify-content: center;
-  gap: 2px;
+  gap: 4px;
 
 }
 
