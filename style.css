@@ -487,6 +487,12 @@ span {
   gap: 4px;
 }
 
+.social-icon {
+  width: 20px;
+  margin-bottom: -3px;
+  margin-top: 2px;
+}
+
 @keyframes x {
   to {
     left: 30%;
@@ -542,10 +548,6 @@ span {
     width: 100px;
     left: 70%;
     top: 350px;
-  }
-
-  #socials-div {
-    gap: 0;
   }
 
   @keyframes x {
