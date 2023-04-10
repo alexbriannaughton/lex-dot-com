@@ -4,8 +4,9 @@
   margin: 0px auto;
   text-align: center;
 }
+
   
-.prev, .next {
+/* .prev, .next {
   cursor:pointer;
   position: absolute;
   top: 50%;
@@ -20,20 +21,20 @@
   user-select: none;
   text-decoration: #FFFDD0;
   outline-color: #000000;
-}
+} */
   
-.next {
+/* .next {
   right: 16%;
   border-radius: 7px 7px 7px 7px;
 }
   
 .prev {
   left: 16%;
-}
+} */
 
-.prev:hover, .next:hover {
+/* .prev:hover, .next:hover {
   background-color: #FFFDD0;
-}
+} */
   
 .text {
   color: #000000;

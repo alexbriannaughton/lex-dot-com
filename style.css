@@ -110,12 +110,12 @@ p {
     font-size: 210%;
   }
 
-  #prevbutton,
+  /* #prevbutton,
   #nextbutton {
     padding: 10px;
-  }
+  } */
 
-  .prev,
+  /* .prev,
   .next {
     cursor: pointer;
     position: absolute;
@@ -130,19 +130,19 @@ p {
     user-select: none;
     text-decoration: #FFFDD0;
     outline-color: #000000;
-  }
+  } */
 
   img.tum {
     width: 72%;
   }
 
-  .next {
+  /* .next {
     right: 4%;
   }
 
   .prev {
     left: 4%;
-  }
+  } */
 
   #flowersleft {
     width: 55px;
@@ -479,6 +479,11 @@ span {
   animation:
     x 3s linear infinite alternate,
     y 3s infinite cubic-bezier(0, 533.33, 1, 533.33);
+}
+
+#socials-div {
+  display: flex;
+  justify-content: center;
 }
 
 @keyframes x {
