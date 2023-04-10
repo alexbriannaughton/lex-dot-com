@@ -21,11 +21,21 @@
   <img class="fade" id="me" src="./me.jpg" alt="me">
   <h1 id="helloworld" class="fade">h e l l o &nbsp;&nbsp;w o r l d !</h1>
   <div id="socials-div">
-    <button><span>linkedin</span></button>
-    <button><span>github</span></button>
-    <button><span>ig</span></button>
-    <button><span>bandcamp</span></button>
-    <button><span>tiktok</span></button>
+    <script>
+      const linkedin = "https://www.linkedin.com/in/alexbriannaughton/";
+      const github = "https://github.com/alexbriannaughton";
+      const ig = "https://www.instagram.com/lifelong_lex/";
+      const bandcamp = "https://lllex.bandcamp.com/";
+      const tiktok = "https://www.tiktok.com/@littlest.flexer";
+      function openWindow(link) {
+        window.open(link);
+      }
+    </script>
+    <button onclick="openWindow(linkedin)"><span>linkedin</span></button>
+    <button onclick="openWindow(github)"><span>github</span></button>
+    <button onclick="openWindow(ig)"><span>ig</span></button>
+    <button onclick="openWindow(bandcamp)"><span>bandcamp</span></button>
+    <button onclick="openWindow(tiktok)"><span>tiktok</span></button>
   </div>
 </body>
 

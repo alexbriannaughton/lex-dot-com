@@ -133,7 +133,7 @@ p {
   } */
 
   img.tum {
-    width: 72%;
+    width: 82%;
   }
 
   /* .next {
@@ -484,6 +484,8 @@ span {
 #socials-div {
   display: flex;
   justify-content: center;
+  gap: 2px;
+
 }
 
 @keyframes x {
