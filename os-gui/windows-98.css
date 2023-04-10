@@ -25,6 +25,7 @@ button {
     color: rgb(0, 0, 0);
     color: var(--ButtonText);
     font-family: 'Times New Roman', Times, serif;
+    font-size: 10px;
 }
 
 button:not(.lightweight) {
@@ -199,9 +200,9 @@ button:not(.lightweight).pressed {
     image-rendering: pixelated;
 }
 
-.next, .prev {
+/* .next, .prev {
     font-size: 26px;
-}
+} */
 
 .next {
     left: .5%;
