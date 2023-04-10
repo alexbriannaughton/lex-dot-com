@@ -524,6 +524,11 @@ span {
 }
 
 @media only screen and (max-width: 600px) {
+  .social-icon {
+    width: 20px;
+    margin-bottom: -3px;
+    margin-top: 2px;
+  }
   #lex-skates {
 
     top: 350px;
