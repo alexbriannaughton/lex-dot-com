@@ -485,7 +485,6 @@ span {
   display: flex;
   justify-content: center;
   gap: 4px;
-
 }
 
 @keyframes x {
@@ -543,6 +542,10 @@ span {
     width: 100px;
     left: 70%;
     top: 350px;
+  }
+
+  #socials-div {
+    gap: 1px;
   }
 
   @keyframes x {
