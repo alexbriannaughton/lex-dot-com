@@ -43,13 +43,14 @@ nav {
   border: 8.5px ridge #FFFDD0;
 }
 
-#me:active {
-  border: 8.5px ridge #FFFDD0;
-}
-
 #me:hover {
   cursor: help;
   border: 8.5px groove #FFFDD0;
+}
+
+#playlist {
+  height: 150px;
+  width: 400px;
 }
 
 h1 {
@@ -85,15 +86,17 @@ p {
   margin-bottom: 0;
 }
 
-.fade {
-  animation-name: fade;
-  animation-duration: 1.3s;
-}
-
 .tum {
   width: 45%;
   max-width: 480px;
 }
+
+.fade {
+  animation-name: fade;
+  animation-duration: 2.3s;
+}
+
+
 
 @keyframes fade {
   from {
