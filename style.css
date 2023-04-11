@@ -47,16 +47,16 @@ nav {
   border: 8.5px ridge #FFFDD0;
 }
 
+#me:hover {
+  cursor: help;
+  border: 8.5px groove #FFFDD0;
+}
+
 h1 {
   text-align: center;
   font-size: 35px;
   margin: 0;
   padding-bottom: 2%;
-}
-
-#me:hover {
-  cursor: help;
-  border: 8.5px groove #FFFDD0;
 }
 
 a:link {
