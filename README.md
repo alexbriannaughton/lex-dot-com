@@ -1,4 +1,4 @@
-### my personal website!
+### my personal website
 [lexdotcom.com](https://lexdotcom.com)
 
-purely css, html and javascript for now.
+purely css, html and javascript
