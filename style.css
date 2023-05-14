@@ -111,6 +111,7 @@ p {
 @media only screen and (max-width: 600px) {
   #helloworld {
     font-size: 210%;
+    margin-bottom: 4px;
   }
 
   /* #prevbutton,
