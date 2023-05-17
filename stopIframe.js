@@ -20,6 +20,7 @@ function onPlayerStateChange(e) {
         // });
         
         //if one video is playing then pause other
+        e.target.getIframe().classList.add('playing-video');
         pauseOthersYoutubes(e.target);
     }
     // if (e["data"] == YT.PlayerState.PAUSED) {
@@ -72,6 +73,7 @@ function pauseOthersYoutubes( currentPlayer ) {
     for (var i = ytplayerList.length; i-- ;){
         if( ytplayerList[i] && (ytplayerList[i] != currentPlayer) ){
             ytplayerList[i].pauseVideo();
+            ytplayerList[i].getIframe().classList.remove('playing-video');
         }
     }  
 }
@@ -92,6 +94,28 @@ function onYouTubeIframeAPIReady() {
     // console.log("YouTubeIframeAPI is ready");
     initYoutubePlayers();
 }
+
+document.addEventListener('click', function(event) {
+    // Check if the clicked element is a YouTube video
+    var isYoutubeVideo = false;
+    var target = event.target;
+    while (target != document.body) {
+        if (target.classList.contains('youtube-video')) {
+            isYoutubeVideo = true;
+            break;
+        }
+        target = target.parentNode;
+    }
+
+    // Pause and close the video if clicked outside of it
+    if (!isYoutubeVideo) {
+        for (var i = ytplayerList.length; i-- ;) {
+            ytplayerList[i].pauseVideo();
+            ytplayerList[i].getIframe().classList.remove('playing-video');
+        }
+    }
+});
+
 var tag = document.createElement('script');
 //use https when loading script and youtube iframe src since if user is logging in youtube the youtube src will switch to https.
 tag.src = "https://www.youtube.com/iframe_api";

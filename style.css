@@ -228,11 +228,21 @@ p {
   flex: 10 0 auto;
   margin-right: 4px;
   margin-bottom: 20px;
-  
+  transition: transform 1s ease-in-out;
 }
 
 .vid-container:hover {
   border: 5px groove #FFFDD0;
+}
+
+.playing-video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 750px;
+  height: 600px;
+  z-index: 1;
 }
 
 @media only screen and (max-width: 400px) {
@@ -240,276 +250,269 @@ p {
     width: 300px;
     height: 169px;
   }
-}
 
-#web-project-parent {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-evenly;
-}
-
-.web-project-div {
-  width: 100%;
-  /* margin-left: 10px;
-  margin-right: 10px; */
-  border: 2px dotted #FFFDD0;
-  border-radius: 20px;
-  /* padding-bottom: 25px; */
-  background-color: #FFE4E1;
-}
-
-/* .web-project-div:nth-child(4) {
-  margin-top: 20px;
-} */
-
-.project-details-div {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-evenly;
-}
-
-#bbb-subtitle {
-  margin-top: -25px;
-  text-align: center;
-}
-
-#bbb-details {
-  margin-top: -14px;
-}
-
-#honky-details {
-  margin-top: 17px;
-}
-
-.line-break {
-  width: 100%;
-}
-
-#chore-heroes-logo {
-  border: 2px solid chartreuse;
-  border-radius: 12px;
-  width: 200px;
-  margin: auto;
-  display: block;
-  margin-top: 17px;
-  margin-bottom: 4px;
-}
-
-.black-outline {
-  border: 1px dotted dimgray;
-  width: 25%;
-  margin-left: 10px;
-  margin-right: 10px;
-  display: flex;
-  margin-top: 5px;
-  border-radius: 20px;
-  transition: all .4s ease-in-out; 
-}
-
-.black-outline:hover {
-  transform: scale(1.2); 
-}
-
-/* .blogs-margin-top {
-  margin-top: 20px;
-} */
-@media only screen and (max-width: 328px) {
-  #me {
-    width: 200px;
-  }
-  #home {
-    font-size: .8rem;
-  }
-  #flowersleft {
-    width: 45px;
-    padding-right: 2%;
-  }
-  #flowersright {
-    width: 45px;
-    padding-left: 2%;
+  .playing-video {
+    position: static;
+    transform: none;
+    width: 300px;
+    height: 169px;
   }
 }
-@media only screen and (max-width: 600px) {
-  #bandcamp-div {
-    width: 99%;
-    position: relative;
-    left: -5.4px;
-  }
-
   #web-project-parent {
-    display: block;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+  }
+
+  .web-project-div {
+    width: 100%;
+    /* margin-left: 10px;
+  margin-right: 10px; */
+    border: 2px dotted #FFFDD0;
+    border-radius: 20px;
+    /* padding-bottom: 25px; */
+    background-color: #FFE4E1;
+  }
+
+  /* .web-project-div:nth-child(4) {
+  margin-top: 20px;
+} */
+
+  .project-details-div {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+  }
+
+  #bbb-subtitle {
+    margin-top: -25px;
+    text-align: center;
   }
 
   #bbb-details {
-    margin-top: auto;
+    margin-top: -14px;
+  }
+
+  #honky-details {
+    margin-top: 17px;
+  }
+
+  .line-break {
+    width: 100%;
+  }
+
+  #chore-heroes-logo {
+    border: 2px solid chartreuse;
+    border-radius: 12px;
+    width: 200px;
+    margin: auto;
+    display: block;
+    margin-top: 17px;
+    margin-bottom: 4px;
   }
 
   .black-outline {
-    flex-grow: 1;
-    text-align: center;
-    margin: 0 auto;
-    min-width: 300px;
-  }
-}
-
-.proj-link {
-  margin: auto;
-}
-
-#spooky {
-  margin: auto;
-  display: block;
-  width: 100px;
-}
-
-#music-p {
-  margin-left: 35%;
-  margin-right: 35%;
-}
-
-#music-line-1 {
-  text-align: left;
-  /* padding-left: 41px; */
-}
-
-#music-line-2 {
-  text-align: right;
-  margin-bottom: 9px;
-}
-
-#music-line-3 {
-  margin-bottom: 20px;
-}
-
-#video-p {
-  margin-left: 40%;
-  margin-right: 40%;
-}
-
-#web-p {
-  margin-left: 30%;
-  margin-right: 30%;
-}
-
-@media only screen and (max-width: 1000px) {
-  #music-p {
-    margin-left: 25%;
-    margin-right: 25%;
+    border: 1px dotted dimgray;
+    width: 25%;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    margin-top: 5px;
+    border-radius: 20px;
+    transition: all .4s ease-in-out;
   }
 
-  #video-p {
-    margin-left: 32%;
-    margin-right: 32%;
+  .black-outline:hover {
+    transform: scale(1.2);
   }
 
-  #web-p {
-    margin-left: 20%;
-    margin-right: 20%;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  #music-p {
-    margin-left: 6%;
-    margin-right: 6%;
-  }
-
-  #video-p {
-    margin-left: 20%;
-    margin-right: 20%;
-  }
-
-  #web-p {
-    margin-left: 10%;
-    margin-right: 10%;
-  }
-}
-
-#video-line-1 {
-  text-align: left;
-}
-
-#video-line-3 {
-  text-align: right;
-  margin-bottom: 4px;
-}
-
-#video-line-4 {
-  text-align: center;
-  margin-bottom: 26px;
-}
-
-#web-line-1 {
-  text-align: left;
-  margin-bottom: 3px;
-}
-
-#web-line-2 {
-  text-align: right;
-  margin-bottom: 4px;
-}
-
-#web-line-3 {
-  margin-bottom: 26px;
-}
-
-#projects-div a,
-span {
+  /* .blogs-margin-top {
   margin-top: 20px;
-  /* font-family: 'Times New Roman', Times, serif; */
-  font-size: 1.2rem;
-}
+} */
+  @media only screen and (max-width: 328px) {
+    #me {
+      width: 200px;
+    }
 
-#tummy-projects-div {
-  display: flex;
-  justify-content: center;
-}
+    #home {
+      font-size: .8rem;
+    }
 
-#lex-skates {
-  width: 120px;
-  height: 100px;
-  position: absolute;
-  left: 58%;
-  top: 400px;
-  pointer-events: none;
+    #flowersleft {
+      width: 45px;
+      padding-right: 2%;
+    }
 
-  animation:
-    x 3s linear infinite alternate,
-    y 3s infinite cubic-bezier(0, 533.33, 1, 533.33);
-}
-
-#socials-div {
-  display: flex;
-  justify-content: center;
-  gap: 4px;
-}
-
-.social-icon {
-  width: 20px;
-  margin-bottom: -3px;
-  margin-top: 2px;
-}
-
-@keyframes x {
-  to {
-    left: 30%;
+    #flowersright {
+      width: 45px;
+      padding-left: 2%;
+    }
   }
-}
 
-@keyframes y {
-  to {
-    top: 399.5px;
+  @media only screen and (max-width: 600px) {
+    #bandcamp-div {
+      width: 99%;
+      position: relative;
+      left: -5.4px;
+    }
+
+    #web-project-parent {
+      display: block;
+    }
+
+    #bbb-details {
+      margin-top: auto;
+    }
+
+    .black-outline {
+      flex-grow: 1;
+      text-align: center;
+      margin: 0 auto;
+      min-width: 300px;
+    }
   }
-}
 
-@media only screen and (max-width: 900px) {
+  .proj-link {
+    margin: auto;
+  }
+
+  #spooky {
+    margin: auto;
+    display: block;
+    width: 100px;
+  }
+
+  #music-p {
+    margin-left: 35%;
+    margin-right: 35%;
+  }
+
+  #music-line-1 {
+    text-align: left;
+    /* padding-left: 41px; */
+  }
+
+  #music-line-2 {
+    text-align: right;
+    margin-bottom: 9px;
+  }
+
+  #music-line-3 {
+    margin-bottom: 20px;
+  }
+
+  #video-p {
+    margin-left: 40%;
+    margin-right: 40%;
+  }
+
+  #web-p {
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+
+  @media only screen and (max-width: 1000px) {
+    #music-p {
+      margin-left: 25%;
+      margin-right: 25%;
+    }
+
+    #video-p {
+      margin-left: 32%;
+      margin-right: 32%;
+    }
+
+    #web-p {
+      margin-left: 20%;
+      margin-right: 20%;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    #music-p {
+      margin-left: 6%;
+      margin-right: 6%;
+    }
+
+    #video-p {
+      margin-left: 20%;
+      margin-right: 20%;
+    }
+
+    #web-p {
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+  }
+
+  #video-line-1 {
+    text-align: left;
+  }
+
+  #video-line-3 {
+    text-align: right;
+    margin-bottom: 4px;
+  }
+
+  #video-line-4 {
+    text-align: center;
+    margin-bottom: 26px;
+  }
+
+  #web-line-1 {
+    text-align: left;
+    margin-bottom: 3px;
+  }
+
+  #web-line-2 {
+    text-align: right;
+    margin-bottom: 4px;
+  }
+
+  #web-line-3 {
+    margin-bottom: 26px;
+  }
+
+  #projects-div a,
+  span {
+    margin-top: 20px;
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-size: 1.2rem;
+  }
+
+  #tummy-projects-div {
+    display: flex;
+    justify-content: center;
+  }
+
   #lex-skates {
-    left: 64%;
+    width: 120px;
+    height: 100px;
+    position: absolute;
+    left: 58%;
+    top: 400px;
+    pointer-events: none;
+
+    animation:
+      x 3s linear infinite alternate,
+      y 3s infinite cubic-bezier(0, 533.33, 1, 533.33);
+  }
+
+  #socials-div {
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+  }
+
+  .social-icon {
+    width: 20px;
+    margin-bottom: -3px;
+    margin-top: 2px;
   }
 
   @keyframes x {
     to {
-      left: 17%;
+      left: 30%;
     }
   }
 
@@ -518,73 +521,93 @@ span {
       top: 399.5px;
     }
   }
-}
 
-@media only screen and (max-width: 600px) {
-  .social-icon {
-    width: 20px;
-    margin-bottom: -3px;
-    margin-top: 2px;
-  }
-  #lex-skates {
+  @media only screen and (max-width: 900px) {
+    #lex-skates {
+      left: 64%;
+    }
 
-    top: 350px;
-  }
+    @keyframes x {
+      to {
+        left: 17%;
+      }
+    }
 
-  @keyframes x {
-    to {
-      left: 13%;
+    @keyframes y {
+      to {
+        top: 399.5px;
+      }
     }
   }
 
-  @keyframes y {
-    to {
-      top: 349.5px;
+  @media only screen and (max-width: 600px) {
+    .social-icon {
+      width: 20px;
+      margin-bottom: -3px;
+      margin-top: 2px;
     }
-  }
-}
 
-@media only screen and (max-width: 500px) {
-  #lex-skates {
-    height: 90px;
-    width: 100px;
-    left: 70%;
-    top: 350px;
-  }
+    #lex-skates {
 
-  @keyframes x {
-    to {
-      left: 3%;
+      top: 350px;
     }
-  }
 
-  @keyframes y {
-    to {
-      top: 349.5px;
+    @keyframes x {
+      to {
+        left: 13%;
+      }
     }
-  }
-}
-@media only screen and (max-width: 330px) {
-  #tummy-projects {
-    margin-top: 20px;
-    width: 200px;
-  }
-  #lex-skates {
-    height: 90px;
-    width: 100px;
-    left: 60%;
-    top: 350px;
-  }
 
-  @keyframes x {
-    to {
-      left: 1%;
+    @keyframes y {
+      to {
+        top: 349.5px;
+      }
     }
   }
 
-  @keyframes y {
-    to {
-      top: 349.5px;
+  @media only screen and (max-width: 500px) {
+    #lex-skates {
+      height: 90px;
+      width: 100px;
+      left: 70%;
+      top: 350px;
+    }
+
+    @keyframes x {
+      to {
+        left: 3%;
+      }
+    }
+
+    @keyframes y {
+      to {
+        top: 349.5px;
+      }
     }
   }
-}
+
+  @media only screen and (max-width: 330px) {
+    #tummy-projects {
+      margin-top: 20px;
+      width: 200px;
+    }
+
+    #lex-skates {
+      height: 90px;
+      width: 100px;
+      left: 60%;
+      top: 350px;
+    }
+
+    @keyframes x {
+      to {
+        left: 1%;
+      }
+    }
+
+    @keyframes y {
+      to {
+        top: 349.5px;
+      }
+    }
+  }
