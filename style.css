@@ -215,10 +215,7 @@ p {
 
 #vid-flex {
   display: flex;
-  /* flex-direction: row;
-  justify-content: space-evenly; */
-  overflow-x: auto;
-
+  overflow-x: scroll;
 }
 
 .vid-container {
@@ -231,22 +228,19 @@ p {
   flex: 10 0 auto;
   margin-right: 4px;
   margin-bottom: 20px;
+  
 }
 
-/* .vid-container iframe {
-  position: absolute;
-  top:0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-} */
+.vid-container:hover {
+  border: 5px groove #FFFDD0;
+}
+
 @media only screen and (max-width: 400px) {
   .vid-container {
     width: 300px;
     height: 169px;
   }
 }
-
 
 #web-project-parent {
   display: flex;
