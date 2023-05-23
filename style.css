@@ -229,7 +229,7 @@ p {
   flex: 10 0 auto;
   margin-right: 4px;
   margin-bottom: 20px;
-  transition: transform 1s ease-in-out;
+  background-color: #000000;
 }
 
 .vid-container:hover {
