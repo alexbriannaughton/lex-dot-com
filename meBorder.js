@@ -1,8 +1,15 @@
-// function changeBorderToYellow() {
-//     const image = document.getElementById("me");
-//     image.style.border = "8.5px ridge #FFFDD0";
-// }
+document.addEventListener('DOMContentLoaded', function () {
+    const me = document.querySelector('#me');
+    if (me.complete) {
+        // Image is already loaded (cached), directly show hidden content
+        imageLoaded();
+      } else {
+        me.addEventListener('load', imageLoaded);
+      }
+    function imageLoaded() {
+        console.log('hey')
+        const hiddenContent = document.querySelector('.hidden-until-loaded');
+        hiddenContent.style.display = 'block';
 
-// window.addEventListener("load", function () {
-//     changeBorderToYellow();
-// });
+    }
+});

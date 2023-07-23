@@ -49,6 +49,10 @@ nav {
   border: 8.5px groove #FFFDD0;
 }
 
+.hidden-until-loaded {
+  display: none;
+}
+
 #playlist {
   height: 150px;
   width: 400px;
