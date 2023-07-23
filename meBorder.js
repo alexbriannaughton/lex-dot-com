@@ -4,5 +4,5 @@ function changeBorderToYellow() {
 }
 
 window.addEventListener("load", function () {
-    setTimeout(changeBorderToYellow, 100);
+    changeBorderToYellow();
 });
