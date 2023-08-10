@@ -5,7 +5,7 @@
   text-align: center;
 }
 
-  
+
 /* .prev, .next {
   cursor:pointer;
   position: absolute;
@@ -22,7 +22,7 @@
   text-decoration: #FFFDD0;
   outline-color: #000000;
 } */
-  
+
 /* .next {
   right: 16%;
   border-radius: 7px 7px 7px 7px;
@@ -35,7 +35,7 @@
 /* .prev:hover, .next:hover {
   background-color: #FFFDD0;
 } */
-  
+
 .text {
   color: #000000;
   font-size: 18px;
@@ -43,7 +43,7 @@
   text-align: center;
   font-style: italic;
 }
-  
+
 .dot {
   cursor: pointer;
   height: 15px;
@@ -54,19 +54,27 @@
   display: inline-block;
   transition: background-color 0.6s ease;
 }
-  
-.active, .dot:hover {
+
+.active,
+.dot:hover {
   background-color: #717171;
 }
 
-#aboutp {
-  margin-left: 15%;
-  margin-right: 15%;
-}
+#about-div {
+  display: grid;
+  place-items: center;
   
+}
+
+#aboutp {
+  /* margin-left: 15%;
+  margin-right: 15%; */
+  max-width: 900px;
+}
+
 #line1 {
   font-size: .77rem;
-  padding-left: 41px;
+  padding-left: 49px;
   padding-bottom: 6px;
 }
 
@@ -76,12 +84,11 @@
 }
 
 #line3 {
- text-align: center;
-
- padding-bottom: 2.2px;
+  text-align: center;
+  padding-bottom: 2.2px;
 }
 
-#line4{
+#line4 {
   text-align: right;
 }
 
@@ -113,6 +120,11 @@
     margin-left: 8%;
     margin-right: 8%;
   }
+
+  #line1 {
+    padding-left: 41px;
+  }
+
   #line6 {
     font-size: .85em;
     font-style: italic;
