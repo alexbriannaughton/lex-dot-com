@@ -107,7 +107,7 @@
   /* padding-right: 3%;
   padding-left: 10%; */
   padding-top: 3px;
-  padding-bottom: 17px;
+  /* padding-bottom: 17px; */
 }
 
 #aboutlexh1 {
@@ -128,10 +128,10 @@
   #line6 {
     font-size: .85em;
     font-style: italic;
-    text-align: left;
-    padding-right: 3%;
-    padding-left: 10%;
+    /* text-align: left; */
+    /* padding-right: 3%;
+    padding-left: 10%; */
     padding-top: 3px;
-    padding-bottom: 17px;
+    /* padding-bottom: 17px; */
   }
 }
