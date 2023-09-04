@@ -509,6 +509,10 @@ p {
     gap: 4px;
   }
 
+  button:hover {
+    cursor: pointer;
+  }
+
   .social-icon {
     width: 20px;
     margin-bottom: -3px;
