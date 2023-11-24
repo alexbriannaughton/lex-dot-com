@@ -1,0 +1,27 @@
+.video {
+    transform: rotate(180deg);
+    width: 560px;
+    height: 315px;
+}
+
+.flipped {
+    transform: rotate(0deg);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#flipButton {
+    width: 80px;
+}
+
+@media (max-width: 600px) {
+    .video {
+        width: 290px;
+        height: 163.13px;
+    }
+}
