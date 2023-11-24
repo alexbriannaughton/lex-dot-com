@@ -1,18 +1,26 @@
-.video {
-    transform: rotate(180deg);
-    width: 560px;
-    height: 315px;
-}
-
 .flipped {
     transform: rotate(0deg);
 }
 
 body {
+    background: #FFE4E1;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 0;
+}
+
+.video {
+    transform: rotate(180deg);
+
+}
+
+.vid-container {
+    width: 760px;
+    height: 427.5px;
+    margin: 0 auto;
 }
 
 #flipButton {
@@ -20,7 +28,7 @@ body {
 }
 
 @media (max-width: 600px) {
-    .video {
+    .vid-container {
         width: 290px;
         height: 163.13px;
     }

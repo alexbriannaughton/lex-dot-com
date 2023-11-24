@@ -3,6 +3,7 @@ body {
   font-family: garamond;
   overflow-y: hidden;
   min-height: 100vh;
+  margin: 0;
 }
 
 nav {

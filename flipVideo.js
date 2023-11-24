@@ -6,4 +6,3 @@ document.addEventListener('DOMContentLoaded', (event) => {
         video.classList.toggle('flipped');
     });
 });
-
