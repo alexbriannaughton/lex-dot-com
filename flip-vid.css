@@ -1,5 +1,5 @@
 .flipped {
-    transform: rotate(0deg);
+    transform: rotate(180deg);
 }
 
 body {
@@ -10,11 +10,6 @@ body {
     justify-content: center;
     align-items: center;
     margin: 0;
-}
-
-.video {
-    transform: rotate(180deg);
-
 }
 
 .vid-container {
