@@ -222,6 +222,25 @@ p {
 #vid-flex {
   display: flex;
   overflow-x: scroll;
+  -webkit-overflow-scrolling: touch;
+  white-space: nowrap;
+  scrollbar-color: #000 #f0f0f0;
+}
+
+#vid-flex::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Style the scrollbar track */
+.scroll-container::-webkit-scrollbar-track {
+  background: #f0f0f0;
+  /* Set the background color of the scrollbar track */
+}
+
+/* Style the scrollbar thumb */
+.scroll-container::-webkit-scrollbar-thumb {
+  background: #333;
+  /* Set the color of the scrollbar thumb */
 }
 
 .vid-container {
@@ -264,265 +283,283 @@ p {
     height: 169px;
   }
 }
-  #web-project-parent {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-  }
 
-  .web-project-div {
-    width: 100%;
-    /* margin-left: 10px;
+#web-project-parent {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+.web-project-div {
+  width: 100%;
+  /* margin-left: 10px;
   margin-right: 10px; */
-    border: 2px dotted #FFFDD0;
-    border-radius: 20px;
-    /* padding-bottom: 25px; */
-    background-color: #FFE4E1;
-  }
+  border: 2px dotted #FFFDD0;
+  border-radius: 20px;
+  /* padding-bottom: 25px; */
+  background-color: #FFE4E1;
+}
 
-  /* .web-project-div:nth-child(4) {
+/* .web-project-div:nth-child(4) {
   margin-top: 20px;
 } */
 
-  .project-details-div {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
+.project-details-div {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+#bbb-subtitle {
+  margin-top: -25px;
+  text-align: center;
+}
+
+#bbb-details {
+  margin-top: -14px;
+}
+
+.p-web-details {
+  margin-top: 17px;
+}
+
+.line-break {
+  width: 100%;
+}
+
+#chore-heroes-logo {
+  border: 2px solid chartreuse;
+  border-radius: 12px;
+  width: 200px;
+  margin: auto;
+  display: block;
+  margin-top: 17px;
+  margin-bottom: 4px;
+}
+
+.black-outline {
+  border: 1px dotted dimgray;
+  width: 25%;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  margin-top: 5px;
+  border-radius: 20px;
+  transition: all .4s ease-in-out;
+}
+
+.black-outline:hover {
+  transform: scale(1.2);
+}
+
+/* .blogs-margin-top {
+  margin-top: 20px;
+} */
+@media only screen and (max-width: 328px) {
+  #me {
+    width: 200px;
   }
 
-  #bbb-subtitle {
-    margin-top: -25px;
-    text-align: center;
+  #home {
+    font-size: .8rem;
+  }
+
+  #flowersleft {
+    width: 45px;
+    padding-right: 2%;
+  }
+
+  #flowersright {
+    width: 45px;
+    padding-left: 2%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #bandcamp-div {
+    width: 99%;
+    position: relative;
+    left: -5.4px;
+  }
+
+  #web-project-parent {
+    display: block;
   }
 
   #bbb-details {
-    margin-top: -14px;
-  }
-
-  .p-web-details {
-    margin-top: 17px;
-  }
-
-  .line-break {
-    width: 100%;
-  }
-
-  #chore-heroes-logo {
-    border: 2px solid chartreuse;
-    border-radius: 12px;
-    width: 200px;
-    margin: auto;
-    display: block;
-    margin-top: 17px;
-    margin-bottom: 4px;
+    margin-top: auto;
   }
 
   .black-outline {
-    border: 1px dotted dimgray;
-    width: 25%;
-    margin-left: 10px;
-    margin-right: 10px;
-    display: flex;
-    margin-top: 5px;
-    border-radius: 20px;
-    transition: all .4s ease-in-out;
+    flex-grow: 1;
+    text-align: center;
+    margin: 0 auto;
+    min-width: 300px;
   }
+}
 
-  .black-outline:hover {
-    transform: scale(1.2);
-  }
+.proj-link {
+  margin: auto;
+}
 
-  /* .blogs-margin-top {
-  margin-top: 20px;
-} */
-  @media only screen and (max-width: 328px) {
-    #me {
-      width: 200px;
-    }
+#spooky {
+  margin: auto;
+  display: block;
+  width: 100px;
+}
 
-    #home {
-      font-size: .8rem;
-    }
+#music-p {
+  margin-left: 35%;
+  margin-right: 35%;
+}
 
-    #flowersleft {
-      width: 45px;
-      padding-right: 2%;
-    }
+#music-line-1 {
+  text-align: left;
+  /* padding-left: 41px; */
+}
 
-    #flowersright {
-      width: 45px;
-      padding-left: 2%;
-    }
-  }
+#music-line-2 {
+  text-align: right;
+  margin-bottom: 9px;
+}
 
-  @media only screen and (max-width: 600px) {
-    #bandcamp-div {
-      width: 99%;
-      position: relative;
-      left: -5.4px;
-    }
+#music-line-3 {
+  margin-bottom: 20px;
+}
 
-    #web-project-parent {
-      display: block;
-    }
+#video-p {
+  margin-left: 40%;
+  margin-right: 40%;
+}
 
-    #bbb-details {
-      margin-top: auto;
-    }
+#web-p {
+  margin-left: 30%;
+  margin-right: 30%;
+}
 
-    .black-outline {
-      flex-grow: 1;
-      text-align: center;
-      margin: 0 auto;
-      min-width: 300px;
-    }
-  }
-
-  .proj-link {
-    margin: auto;
-  }
-
-  #spooky {
-    margin: auto;
-    display: block;
-    width: 100px;
-  }
-
+@media only screen and (max-width: 1000px) {
   #music-p {
-    margin-left: 35%;
-    margin-right: 35%;
-  }
-
-  #music-line-1 {
-    text-align: left;
-    /* padding-left: 41px; */
-  }
-
-  #music-line-2 {
-    text-align: right;
-    margin-bottom: 9px;
-  }
-
-  #music-line-3 {
-    margin-bottom: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
   }
 
   #video-p {
-    margin-left: 40%;
-    margin-right: 40%;
+    margin-left: 32%;
+    margin-right: 32%;
   }
 
   #web-p {
-    margin-left: 30%;
-    margin-right: 30%;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #music-p {
+    margin-left: 6%;
+    margin-right: 6%;
   }
 
-  @media only screen and (max-width: 1000px) {
-    #music-p {
-      margin-left: 25%;
-      margin-right: 25%;
-    }
-
-    #video-p {
-      margin-left: 32%;
-      margin-right: 32%;
-    }
-
-    #web-p {
-      margin-left: 20%;
-      margin-right: 20%;
-    }
+  #video-p {
+    margin-left: 20%;
+    margin-right: 20%;
   }
 
-  @media only screen and (max-width: 600px) {
-    #music-p {
-      margin-left: 6%;
-      margin-right: 6%;
-    }
-
-    #video-p {
-      margin-left: 20%;
-      margin-right: 20%;
-    }
-
-    #web-p {
-      margin-left: 10%;
-      margin-right: 10%;
-    }
+  #web-p {
+    margin-left: 10%;
+    margin-right: 10%;
   }
+}
 
-  #video-line-1 {
-    text-align: left;
+#video-line-1 {
+  text-align: left;
+}
+
+#video-line-3 {
+  text-align: right;
+  margin-bottom: 4px;
+}
+
+#video-line-4 {
+  text-align: center;
+  margin-bottom: 26px;
+}
+
+#web-line-1 {
+  text-align: left;
+  margin-bottom: 3px;
+}
+
+#web-line-2 {
+  text-align: right;
+  margin-bottom: 4px;
+}
+
+#web-line-3 {
+  margin-bottom: 26px;
+}
+
+#projects-div a,
+span {
+  margin-top: 20px;
+  /* font-family: 'Times New Roman', Times, serif; */
+  font-size: 1.2rem;
+}
+
+#tummy-projects-div {
+  display: flex;
+  justify-content: center;
+}
+
+#lex-skates {
+  width: 120px;
+  height: 100px;
+  position: absolute;
+  left: 58%;
+  top: 400px;
+  pointer-events: none;
+
+  animation:
+    x 3s linear infinite alternate,
+    y 3s infinite cubic-bezier(0, 533.33, 1, 533.33);
+}
+
+#socials-div {
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.social-icon {
+  width: 20px;
+  margin-bottom: -3px;
+  margin-top: 2px;
+}
+
+@keyframes x {
+  to {
+    left: 30%;
   }
+}
 
-  #video-line-3 {
-    text-align: right;
-    margin-bottom: 4px;
+@keyframes y {
+  to {
+    top: 399.5px;
   }
+}
 
-  #video-line-4 {
-    text-align: center;
-    margin-bottom: 26px;
-  }
-
-  #web-line-1 {
-    text-align: left;
-    margin-bottom: 3px;
-  }
-
-  #web-line-2 {
-    text-align: right;
-    margin-bottom: 4px;
-  }
-
-  #web-line-3 {
-    margin-bottom: 26px;
-  }
-
-  #projects-div a,
-  span {
-    margin-top: 20px;
-    /* font-family: 'Times New Roman', Times, serif; */
-    font-size: 1.2rem;
-  }
-
-  #tummy-projects-div {
-    display: flex;
-    justify-content: center;
-  }
-
+@media only screen and (max-width: 900px) {
   #lex-skates {
-    width: 120px;
-    height: 100px;
-    position: absolute;
-    left: 58%;
-    top: 400px;
-    pointer-events: none;
-
-    animation:
-      x 3s linear infinite alternate,
-      y 3s infinite cubic-bezier(0, 533.33, 1, 533.33);
-  }
-
-  #socials-div {
-    display: flex;
-    justify-content: center;
-    gap: 4px;
-  }
-
-  button:hover {
-    cursor: pointer;
-  }
-
-  .social-icon {
-    width: 20px;
-    margin-bottom: -3px;
-    margin-top: 2px;
+    left: 64%;
   }
 
   @keyframes x {
     to {
-      left: 30%;
+      left: 17%;
     }
   }
 
@@ -531,93 +568,76 @@ p {
       top: 399.5px;
     }
   }
+}
 
-  @media only screen and (max-width: 900px) {
-    #lex-skates {
-      left: 64%;
-    }
+@media only screen and (max-width: 600px) {
+  .social-icon {
+    width: 20px;
+    margin-bottom: -3px;
+    margin-top: 2px;
+  }
 
-    @keyframes x {
-      to {
-        left: 17%;
-      }
-    }
+  #lex-skates {
 
-    @keyframes y {
-      to {
-        top: 399.5px;
-      }
+    top: 350px;
+  }
+
+  @keyframes x {
+    to {
+      left: 13%;
     }
   }
 
-  @media only screen and (max-width: 600px) {
-    .social-icon {
-      width: 20px;
-      margin-bottom: -3px;
-      margin-top: 2px;
+  @keyframes y {
+    to {
+      top: 349.5px;
     }
+  }
+}
 
-    #lex-skates {
+@media only screen and (max-width: 500px) {
+  #lex-skates {
+    height: 90px;
+    width: 100px;
+    left: 70%;
+    top: 350px;
+  }
 
-      top: 350px;
-    }
-
-    @keyframes x {
-      to {
-        left: 13%;
-      }
-    }
-
-    @keyframes y {
-      to {
-        top: 349.5px;
-      }
+  @keyframes x {
+    to {
+      left: 3%;
     }
   }
 
-  @media only screen and (max-width: 500px) {
-    #lex-skates {
-      height: 90px;
-      width: 100px;
-      left: 70%;
-      top: 350px;
+  @keyframes y {
+    to {
+      top: 349.5px;
     }
+  }
+}
 
-    @keyframes x {
-      to {
-        left: 3%;
-      }
-    }
+@media only screen and (max-width: 330px) {
+  #tummy-projects {
+    margin-top: 20px;
+    width: 200px;
+  }
 
-    @keyframes y {
-      to {
-        top: 349.5px;
-      }
+  #lex-skates {
+    height: 90px;
+    width: 100px;
+    left: 60%;
+    top: 350px;
+  }
+
+  @keyframes x {
+    to {
+      left: 1%;
     }
   }
 
-  @media only screen and (max-width: 330px) {
-    #tummy-projects {
-      margin-top: 20px;
-      width: 200px;
-    }
-
-    #lex-skates {
-      height: 90px;
-      width: 100px;
-      left: 60%;
-      top: 350px;
-    }
-
-    @keyframes x {
-      to {
-        left: 1%;
-      }
-    }
-
-    @keyframes y {
-      to {
-        top: 349.5px;
-      }
+  @keyframes y {
+    to {
+      top: 349.5px;
     }
   }
+}
