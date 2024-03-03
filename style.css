@@ -228,19 +228,23 @@ p {
 }
 
 #vid-flex::-webkit-scrollbar {
-  width: 12px;
+  width: 12px !important;
+  -webkit-overflow-scrolling: auto !important;
 }
 
-/* Style the scrollbar track */
-.scroll-container::-webkit-scrollbar-track {
+#vid-flex::-webkit-scrollbar-track {
   background: #f0f0f0;
-  /* Set the background color of the scrollbar track */
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3) !important;
+  -webkit-border-radius: 10px !important;
+  border-radius: 10px !important;
 }
 
-/* Style the scrollbar thumb */
-.scroll-container::-webkit-scrollbar-thumb {
+#vid-flex::-webkit-scrollbar-thumb {
   background: #333;
-  /* Set the color of the scrollbar thumb */
+  -webkit-border-radius: 10px !important;
+  border-radius: 10px !important;
+  background: #41617D !important; 
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5) !important; 
 }
 
 .vid-container {
